@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    height: 842px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#contenido-derecho {
+    width: 67%;
+    background-color: #FFFFFFFF;
+    border: 1px solid 1C3441;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+
+#contenido-izquierdo {
+    width: 33%;
+    background-color: #1C3441;
+    color: white;
+}
+
+#contenido-izquierdo h3 {
+    display: inline;
+    color: #AEBECD;
+}
+
+#contenido-izquierdo span {
+    display: block;
+    width: 100px;
+    border-bottom: 2px solid #AEBECD;
+}
+
+
+/* 192  403*/
+
+#foto {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+#foto>div {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+#foto img {
+    width: 150px;
+}
+
+#contacto,
+#habilidades,
+#redes_sociales,
+#referencias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#contacto h3,
+#habilidades h3,
+#redes_sociales h3,
+#referencias h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#telefono,
+#correo {
+    margin-top: 15px;
+}
+
+#linkedin,
+#instagram {
+    margin-top: 10px;
+}
+
+#linkedin a,
+#instagram a {
+    color: white;
+}
+
+#html,
+#css,
+#javaScript,
+#angular,
+#nodejs,
+#php,
+#laravel {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 60px;
+    margin-top: 10px;
+}
