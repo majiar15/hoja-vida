@@ -3,6 +3,16 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: "Oswald";
+    src: url("../assets/fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Releway";
+    src: url("../assets/fonts/Raleway-VariableFont_wght.ttf");
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -58,7 +68,7 @@ a:active {
     height: 150px;
     width: 150px;
     border-radius: 100%;
-    border: 2px solid white;
+    border: 3px solid #000000;
     overflow: hidden;
 }
 
@@ -113,4 +123,58 @@ a:active {
     justify-content: space-between;
     margin-right: 60px;
     margin-top: 10px;
+}
+
+
+/* contenido derecho */
+
+#contenido-derecho {
+    padding: 25px;
+}
+
+#contenido-derecho h1 {
+    font-family: 'Oswald';
+    font-weight: normal;
+    font-size: 44px;
+}
+
+#contenido-derecho h2 {
+    font-family: 'Releway';
+    color: #465967;
+}
+
+.line {
+    display: block;
+    width: 80px;
+    border-bottom: 2px solid #1292EE;
+    margin: 5px 0px 5px 0px;
+}
+
+.line-title {
+    width: 250px;
+}
+
+#contenido-derecho h2 {
+    font-family: 'Releway';
+    font-weight: 100;
+    color: #465967;
+    font-size: 24px;
+}
+
+#contenido-derecho p {
+    font-family: 'Releway';
+    color: #7A8590;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#contenido-derecho h4 {
+    font-family: 'Oswald';
+    color: #465967;
+    letter-spacing: 1px;
+}
+
+#educacion>p,
+#cursos>p>a {
+    color: #92A1B0;
 }
