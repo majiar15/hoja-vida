@@ -174,7 +174,7 @@ a:active {
     letter-spacing: 1px;
 }
 
-#educacion>p,
+#educacion>p>a,
 #cursos>p>a {
     color: #92A1B0;
 }
